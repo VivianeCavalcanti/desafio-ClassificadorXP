@@ -1,7 +1,8 @@
-let nameHeroi = 'Viviane'                       // Escreva o nome do herói:
-let quantidadeExperencia = 10001                 //Digite o valor de XP do herói:
+let nameHeroi = 'Viviane'                       
+let quantidadeExperencia = 10001      
 
 let level
+
 if (quantidadeExperencia <= 1000) {
     level = 'Ferro';
 } else if (quantidadeExperencia >= 1001 && quantidadeExperencia <=2000){

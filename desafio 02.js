@@ -1,10 +1,13 @@
-saldoRanked (21,10);
+var  ranked ='';
+saldoRanked (41,5);
+ 
+
 
 function saldoRanked(vitoria, derrota) {
     saldo =  vitoria - derrota;
-    ranked = 20 ;
     
-    if (vitoria < 10) {
+    
+if (vitoria < 10) {
         ranked = 'Ferro';
     } else if (vitoria >= 11 && vitoria <= 20) {
         ranked = 'Bronze';
@@ -19,9 +22,7 @@ function saldoRanked(vitoria, derrota) {
     } else {
         ranked = 'Imortal';
     }   
+     return saldo;
 }
 
-console.log('O Herói tem de saldo de ' + {saldo} + 'está no nível de ' + ranked);
-
-
-
+console.log('O Herói tem de saldo de ' + saldo + ' está no nível de ' + ranked);
